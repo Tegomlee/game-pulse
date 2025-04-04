@@ -1,0 +1,21 @@
+# Treat all text files as text and auto-normalize line endings
+* text=auto
+
+# C source and headers as text
+*.c text
+*.h text
+
+# CMake
+*.cmake text
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Markdown and docs
+*.md text
+*.txt text
+
+# Make license and readme always visible as text
+LICENSE text
+README* text
